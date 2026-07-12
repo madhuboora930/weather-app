@@ -56,23 +56,25 @@ body {
 }
 
 .glass {
-  background: rgba(11, 15, 36, 0.55);
+  background: rgba(52, 60, 102, 0.65);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(203, 213, 225, 0.28);
+  box-shadow: 0 8px 24px -10px rgba(0, 0, 0, 0.7);
 }
 
 .glass-nav {
-  background: rgba(6, 8, 24, 0.85);
+  background: rgba(42, 49, 88, 0.94);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(148, 163, 184, 0.14);
+  border: 1px solid rgba(203, 213, 225, 0.3);
+  box-shadow: 0 8px 24px -10px rgba(0, 0, 0, 0.7);
 }
 
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .glass,
   .glass-nav {
-    background: rgba(6, 8, 24, 0.94);
+    background: rgba(42, 49, 88, 0.97);
   }
 }
 
